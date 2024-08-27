@@ -68,9 +68,9 @@ def genDream(imageIn, layerList, stepSize=100, iterations=10):
 
 # genDream(imageIn, layerList, stepSize, iterations)
 
-#gd0 = genDream('starryNight.jpeg', ['mixed1', 'mixed3', 'mixed6'], 42, 7)
+#gd0 = genDream('starryNight.jpg', ['mixed1', 'mixed3', 'mixed6'], 42, 7)
 
-gd0 = genDream('starryNight.jpeg', ['mixed3', 'mixed6'], 42, 7)
-gd1 = genDream('starryNight.jpeg', ['mixed1', 'mixed6'], 42, 7)
-gd2 = genDream('starryNight.jpeg', ['mixed1', 'mixed3'], 42, 7)
+gd0 = genDream('starryNight.jpg', ['mixed3', 'mixed6'], 42, 7)
+gd1 = genDream('starryNight.jpg', ['mixed1', 'mixed6'], 42, 7)
+gd2 = genDream('starryNight.jpg', ['mixed1', 'mixed3'], 42, 7)
 
